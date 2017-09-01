@@ -1,0 +1,446 @@
+﻿
+html {
+    font-size: 16px;
+    line-height: 1.625em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    position: relative;
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+a {
+    color: #333;
+    line-height: normal;
+    text-decoration: none;
+    outline: 0;
+}
+
+/* a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+} */
+
+a img {
+    border: none;
+}
+
+img, object, embed {
+    max-width: 100%;
+    height: auto;
+}
+
+/*.content-river:after, .content-river .features:after, .content-container:after, .pushdown:after, .section-header:after, footer .footer-columns:after, footer .conde-nast:after, footer .legal-copy:after, .trending-topics .results:after {
+    clear: both;
+}
+.content-river:before, .content-river .features:before, .content-container:before, .pushdown:before, .section-header:before, footer .footer-columns:before, footer .conde-nast:before, footer .legal-copy:before, .trending-topics .results:before, .content-river:after, .content-river .features:after, .content-container:after, .pushdown:after, .section-header:after, footer .footer-columns:after, footer .conde-nast:after, footer .legal-copy:after, .trending-topics .results:after {
+    content: "";
+    display: table;
+}
+
+.content-river .features .feature:nth-child(2n):before, .content-river .features .feature:nth-child(2n):after {
+    content: "";
+    display: table;
+}
+.content-river .features .feature:nth-child(2n):after {
+    clear: both;
+}*/
+
+.main.has-rail, .rail, footer .copyright-privacy, .content-river .featured-promos, .content-river .ad-sidebar {
+    float: left;
+    min-height: 1px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/*@media only screen and (min-width: 1041px) */
+.content-container {
+    position: relative;
+    width: 100%;
+}
+
+.content-container, .pushdown {
+    max-width: 1024px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-container>*:first-child, .pushdown>*:first-child {
+    margin-left: 0;
+}
+
+.content-block .featured-promos.main {
+    width: 100%;
+}
+
+.content-river>*:first-child, .content-river .features>*:first-child {
+    margin-left: 0;
+}
+
+.content-river, .content-river .features {
+    width: auto;
+    min-width: 0;
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.content-river .features {
+    margin-bottom: 0;
+    margin: 0 0 1.5rem 0;
+}
+
+.content-river .features .feature {
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 49%;
+    margin-right: 2%;
+    margin-bottom: 2.625rem;
+}
+
+.content-river .features .feature:nth-child(2n) {
+    margin-right: 0;
+}
+.content-river .features .feature:nth-child(2n) figure {
+    text-align: right;
+}
+
+.content-river .features .feature figure {
+    max-width: 20.75rem;
+    position: relative;
+    text-align: center;
+    margin-bottom: 1.375rem;
+}
+
+content-river .features .feature figure a {
+    display: block;
+    line-height: 0;
+}
+
+.content-river .features .feature figure img {
+    width: 100%;
+    max-width: 20.75rem;
+    position: relative;
+}
+
+.content-river .features .feature .type {
+    display: block;
+    position: absolute;
+    text-align: left;
+    text-indent: -9999px;
+    z-index: 1;
+}
+
+.content-river .features .feature .text {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 17.875rem;
+}
+
+.content-river .features .feature .text h3.tag {
+    margin: 0;
+    padding: 0 0 0.5rem;
+}
+
+.content-river .featured-promos {
+    width: 68.125%;
+}
+
+.content-river .featured-promos .featured-main {
+    position: relative;
+}
+
+.content-river .featured-promos .featured-main figure {
+    line-height: 0;
+    min-height: 304px;
+    min-width: 684px;
+    position: relative;
+}
+
+figure {
+   /* -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px; */
+}
+
+.content-river .featured-promos .featured-main figure:after {
+    content: '';
+    position: absolute;
+    border: 2px solid #fff;
+    left: 0.875rem;
+    top: 0.875rem;
+    right: 0.875rem;
+    bottom: 0.875rem;
+    z-index: auto;
+}
+
+.content-river .featured-promos .featured-main .textBlock {
+    width: 100%;
+    position: relative;
+    bottom: 2.125rem;
+    left: 0;
+}
+
+.content-river .featured-promos .featured-main .textBlock .text {
+    padding: 1.5rem 4.375rem 0;
+    width: 50rem;
+    background-color: #fff;
+    text-align: center;
+    color: #333;
+    margin: 0 auto;
+}
+
+.content-river .features .feature .text h2 {
+    font: normal 700 22.127px utopia-std;
+    line-height: 1.625rem;
+    text-transform: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wf-active .content-river .text h2 {
+    visibility: visible;
+}
+
+.content-river .featured-promos .featured-main .textBlock .text h2 {
+    font: normal 700 30.067px utopia-std-display;
+    line-height: 2.125rem;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}
+
+.content-river .featured-promos .featured-main .textBlock .text h3.tag {
+    margin-bottom: 0.625rem;
+}
+
+h2 {
+    letter-spacing:normal;
+}
+
+h3 {
+    font-size: 1.125rem;
+}
+
+h3.tag, .sponsor-logo {
+    text-transform: uppercase;
+    margin: 0 0 1.375rem 0;
+    padding: 0;
+}
+h3.tag a, .sponsor-logo a {
+    color: #a1a1a1;
+    font: normal 20.169px "Gotham Cond SSm 5r";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans";
+    font-weight: Normal;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    line-height: 1.15538em;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #333;
+}
+
+
+
+h2 {
+    color: #333;
+    line-height: 3.125rem;
+    text-transform: uppercase;
+    letter-spacing: normal;
+}
+
+.content-river .featured-promos .featured-main .textBlock .text hr {
+    padding: 0;
+    margin: 0.875rem auto 0.75rem;
+    background-color: #ccc;
+    border: none;
+    width: 4rem;
+    height: 0.0625rem;
+}
+
+.content-river .features .feature .text hr {
+    padding: 0;
+    margin: 0.875rem auto 1.125rem;
+    background-color: #ccc;
+    width: 4rem;
+    border: none;
+    height: 0.0625rem;
+}
+
+hr {
+    clear: both;
+    display: block;
+   /* -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto; */
+}
+
+.content-river .features .feature .credits span {
+    vertical-align: top;
+}
+
+.byline, .divider, .pubDate {
+    font: normal 0.63269rem "Gotham SSm 7r";
+    color: #f93f23;
+    text-transform: uppercase;
+    letter-spacing: normal;
+}
+span.byline {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/*@media only screen and (min-width: 1041px)*/
+.mobile {
+    display: none;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.content-river .ad-sidebar {
+    width: 29.875%;
+    position: static;
+}
+
+.main.has-rail, .rail, footer .copyright-privacy, .content-river .featured-promos, .content-river .ad-sidebar {
+    margin-left: 1.95313%;
+    float: left;
+    min-height: 1px;
+    box-sizing: border-box;
+}
+
+.content-river .ad-sidebar .ad {
+    margin-bottom: 2.875rem;
+}
+
+.poll {
+    width: 300px;
+    border: 1px #cccccc solid;
+    margin: 2em 0 1em;
+    padding: 0 1em 1em;
+    min-height: 300px;
+}
+.hide {
+    display: none;
+}
+
+.ad-container {
+    line-height: 0;
+}
+
+.trending-topics {
+    padding: 0;
+    margin: 0 auto 4.375rem;
+    padding-bottom: 4.125rem;
+    background-color: #f1f2f2;
+    position: relative;
+    clear: both;
+    text-align: center;
+}
+
+.fullwidth {
+    width: 100%;
+}
+.fullwidth .section-header {
+    max-width: 62.75rem !important;
+}
+.section-header {
+    width: 100%;
+    min-width: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+}
+.section-header>*:first-child {
+    margin-left: 0;
+}
+.trending-topics h2 {
+    margin: 0;
+    padding: 3.75rem 0 3.75rem 0;
+}
+.section-header h2 {
+    display: inline-block;
+    position: relative;
+    letter-spacing: 0.04em;
+}
+
+.trending-topics .results {
+    color: #333;
+    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ol {
+    list-style: decimal;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.trending-topics .results .result {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.trending-topics .results .result:first-child {
+    margin-left: 0.125rem;
+}
+.trending-topics .results .result .thumb img {
+    height: 4.375rem;
+    width: 5.5rem;
+}
+.trending-topics .results .result .thumb h3 {
+    color: #fff;
+    font: normal 22.314px "Gotham Cond SSm 5r";
+    text-transform: uppercase;
+}
+.trending-topics .results .result .thumb {
+    line-height: 0;
+    border-radius: 50%;
+    background: url("/pattern-purple.jpg") repeat left top;
+    width: 9.625rem;
+    height: 9.625rem;
+    display: table-cell;
+    vertical-align: middle;
+}

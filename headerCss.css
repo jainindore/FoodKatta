@@ -1,0 +1,227 @@
+﻿body{
+    background-color: white;
+}
+.headerNav .user a {
+    color: #a1a1a1;
+    font: bold 1.744rem "Gotham SSm 7r";
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    outline: 0;
+}
+
+.header .headerNav {
+    position: relative;
+    margin: 2.1875rem auto 0;
+    max-width: 62.75rem;
+    border-bottom: 1px solid #b7b7b7;
+    height: 142px;
+    background-color: #fff;
+}
+
+[class^="icon-"] {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    display: block;
+    direction: ltr;
+    padding: 0;
+    text-indent: -9999px;
+}
+
+.icon-epicurious {
+    height: 108px;
+    margin: 0 auto;
+    overflow: initial;
+    position: relative;
+    width: 180px;
+   background-image: url("foodkatta log.png");
+}
+.header .navigation ul li a {
+    font: normal 0.875rem "Gotham SSm 7r";
+    font-weight: bold;
+    font-size: 0.875rem;
+    font-family: "Gotham SSm 7r";
+    color: #333;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: -0.03em;
+    white-space: nowrap;
+}
+.header .navigation {
+    width: auto;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+    border-bottom: none;
+    max-width: 1004px;
+}
+.header .navigation ul li {
+    display: table-cell;
+    padding: 0;
+    white-space: nowrap;
+}
+.header .navigation ul {
+    margin: 0 auto;
+    display: table;
+    width: 100%;
+}
+
+a{
+    text-decoration:none;
+}
+a:hover,a:active {
+    text-decoration: underline;
+}
+.search-moment-container .search-moment button.inspired {
+    color: #fff;
+    background-color: #333;
+    width: 16.375rem;
+    height: 4.75rem;
+    border: none;
+    position: relative;
+    white-space: nowrap;
+}
+button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    padding: 1px 6px;
+}
+button {
+    margin: 0em;
+    font: 13.3333px Arial;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+}
+.search-moment-container {
+    height: 486px;
+    line-height: 0;
+    position: relative;
+    width: 100%;
+    margin-bottom: 2.25rem;
+    overflow:hidden;
+}
+.search-moment-container .search-moment button.inspired:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #fff;
+    left: 0.5rem;
+    top: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    z-index: auto;
+}
+.search-moment-container .search-moment button.inspired div {
+    font: italic 400 1.5rem utopia-std-display;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: utopia-std-display;
+    line-height: 4.125rem;
+}
+.search-moment-container .search-moment {
+    text-align: center;
+    top: -880px;
+    position: relative;
+    height: 100%;
+}
+.search-moment-container h2 {
+    font: normal 5.10225rem "Gotham Cond SSm 5r";
+    text-transform: uppercase;
+    color: #311;
+    padding: 1rem 0 0.875rem 0;
+}
+h2 {
+    text-rendering:optimizeLegibility;
+    letter-spacing: normal;
+}
+.search-moment-container .search-moment form {
+    margin-bottom: 8.5rem;
+}
+form {
+    margin: 0 0 18px;
+}
+
+fieldset {
+    display: block; 
+    border: 2px groove threedface;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+.search-moment-container .search-moment fieldset .autocomplete-container {
+    position: relative;
+}
+
+.search-moment-container .search-moment fieldset input {
+    width: 26.25rem;
+    height: 2.8125rem;
+    border: none;
+    background: rgba(255,255,255,0.75);
+    padding-left: 1.125rem;
+    font: normal 1.13194rem "Gotham SSm 5r";
+    letter-spacing: normal;
+    color: #333;
+    z-index:auto;
+}
+.shell-search-glass {
+    background-position: 0 -396px;
+}
+.y-icon {
+    display: inline-block;
+    font-family: 'y-icon';
+    font-style: normal;
+    speak: none;
+    font-weight: normal;
+}
+.search-moment-container .search-moment fieldset button {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    background-color: #333;
+    border: none;
+    text-indent: -9999px;
+    float: left;
+}
+
+form fieldset {
+    border:none;
+    align-content:center;
+}
+.findRecipe {
+  color: #fff;
+    width: 37.375rem;
+    height: 7.75rem;
+    border: none;
+    position: relative;
+    white-space: nowrap;
+    margin-left: 356px;
+    border-radius: 45px;
+     background: rgba(255,255,255,0.75);
+}
+.inspiredRecipeButton{
+      color: #fff;
+    background-color: #333;
+    width: 16.375rem;
+    height: 4.75rem;
+    border: none;
+    position: relative;
+    white-space: nowrap;
+      font: italic 400 1.5rem utopia-std-display;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: utopia-std-display;
+    line-height: 4.125rem;
+            margin-left: 858px;
+    margin-top: -1685px;
+        border-radius:20px;
+
+}

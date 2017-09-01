@@ -1,0 +1,58 @@
+﻿.registration1 {
+    display: flex;
+    /*padding: 50px;
+    float: left;
+    padding-right: 1000px;*/
+    flex-direction: column;
+    font-family: 'Segoe UI';
+    color: darkorange;
+    font-weight: bold;
+    width: 100%;
+    font-size:20px;
+    margin-left:500px;
+    border-color:coral;
+}
+.registration1 input{
+    width: 26.25rem;
+    height: 2.8125rem;
+    /* border: none; */
+    background: rgba(255,255,255,0.75);
+    /* padding-left: 1.125rem; */
+    font: normal 1.13194rem "Gotham SSm 5r";
+    letter-spacing: normal;
+    /* color: #333; */
+    z-index: auto;
+}
+
+
+.registration1 ul {
+    list-style-type:none;
+    overflow:hidden;
+    width:1000px;
+    justify-content:space-around;
+
+  
+}
+
+.registration1 li {
+    float: left;
+    height:100%;
+}
+registration1 .box {
+    height:35px;
+    width:180px;
+    background-image: url('ProjectImages/input-search-icon.png');
+    background-repeat:no-repeat;
+    padding-left:30px;
+    border-radius: 5px;
+     -webkit-border-radius: 10px;
+     border-radius: 10px;
+    
+    
+}
+
+.loginbutton{
+     
+     Height: 30px;
+     background-color: goldenrod; 
+}
