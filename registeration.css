@@ -8,20 +8,16 @@
     color: darkorange;
     font-weight: bold;
     width: 100%;
-    font-size:20px;
-    border-color:coral;
+    font-size: 20px;
+    border-color: coral;
     margin-top: -162px;
 }
 
 
 
-.registration1 ul {
-    list-style-type:none;
-    overflow:hidden;
-    width:1000px;
-    justify-content:space-around;
-
-  
-}
-
-
+    .registration1 ul {
+        list-style-type: none;
+        overflow: hidden;
+        width: 1000px;
+        justify-content: space-around;
+    }

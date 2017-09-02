@@ -1,4 +1,4 @@
-﻿ 
+﻿
 //main javascript file consuming yummly.com API and getting the data from GET HTTP method in JSON format.
 
 (function (global, $) {
@@ -35,7 +35,6 @@
     Yummly.Search = function Yummly_Search(query, callback) {
         var url = getUrl("recipes", { q: query });
         var options = {
-           // data = new YummlyRequest({q: query}),
             dataType: "jsonp",
             type: "GET",
             jsonp: "callback",
@@ -44,11 +43,10 @@
         $.ajax(url, options);
     }
     Yummly.SearchCuisine = function Yummly_SearchCuisine(query, callback) {
-            var url1 = "http://api.yummly.com/v1/api/recipes?_app_id=f6106aa9&_app_key=024a0a3fdb27e364ceb6732cd28e267d&q=%22%22&allowedCuisine[]=cuisine^cuisine-" + query;
+        var url1 = "http://api.yummly.com/v1/api/recipes?_app_id=f6106aa9&_app_key=024a0a3fdb27e364ceb6732cd28e267d&q=%22%22&allowedCuisine[]=cuisine^cuisine-" + query;
 
-       
+
         var options = {
-            // data = new YummlyRequest({q: query}),
             dataType: "jsonp",
             type: "GET",
             jsonp: "callback",
@@ -56,7 +54,7 @@
         };
         $.ajax(url1, options);
     }
-   
+
     Yummly.Recipe = function Yummly_Recipe(recipeId, callback) {
         var url = getUrl("recipe", recipeId);
         var options = {
@@ -78,7 +76,7 @@
         $.ajax(url1, options);
     }
     Yummly.SearchIngredients = function Yummly_SearchIngredients(query, callback) {
-        var url1 = "http://api.yummly.com/v1/api/recipes?_app_id=f6106aa9&_app_key=024a0a3fdb27e364ceb6732cd28e267d&q=&allowedIngredient[]="+query;
+        var url1 = "http://api.yummly.com/v1/api/recipes?_app_id=f6106aa9&_app_key=024a0a3fdb27e364ceb6732cd28e267d&q=&allowedIngredient[]=" + query;
         var options = {
             dataType: "jsonp",
             type: "GET",
@@ -97,6 +95,5 @@
         };
         $.ajax(url1, options);
     }
-
     global.Yummly = Yummly;
 })(window, jQuery);

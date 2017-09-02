@@ -38,7 +38,6 @@
             $body.empty();
             for (var i = 0; i < data.matches.length; i++) {
                 (function (recipe) {
-
                     var $tr = $("<tr></tr>").appendTo($body);
                     var $td = $("<td><img /></td>").appendTo($tr);
                     $td.find('img').attr("src", recipe.smallImageUrls[0]);
@@ -51,8 +50,6 @@
                             populateResult(recipe.id);
                         }
                         );
-
-
                 })(data.matches[i]);
             }
         }

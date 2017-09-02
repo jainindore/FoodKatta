@@ -51,7 +51,7 @@
                         }
                         );
 
-                
+
                 })(data.matches[i]);
             }
         }
@@ -62,7 +62,6 @@
                 $("#findRecipeContainer").empty();
                 $("#searchResult").css("display", "block");
                 Yummly.SearchIngredients(searchText, populateSearchResult);
-            }
-            )
+            })
     }
 );

@@ -25,8 +25,6 @@
             }
             var recipeButton = "<a class=" + "inspiredRecipeButton id=" + "recipeButton" + " href='" + recipe.source.sourceRecipeUrl + "'> Go to Recipe </a>";
             $(recipeButton).appendTo($tr);
-            //})(data.matches[i]);
-
         }
 
         function populateResult(recipeId) {
@@ -51,7 +49,6 @@
                                 populateResult(recipe.id);
                             }
                             );
-
                     }
                 })(data.matches[i]);
             }
@@ -63,7 +60,6 @@
                 $("#findRecipeContainer").empty();
                 $("#searchResult").css("display", "block");
                 Yummly.Search(searchText, populateSearchResult);
-            }
-            )
+            })
     }
 );

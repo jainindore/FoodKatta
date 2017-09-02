@@ -8,7 +8,6 @@
             var $tr = $("<tr></tr>").appendTo($body);
             $("<div></div>").text("Rating: " + "  " + new Array(recipe.rating).join("*")).appendTo($tr);
             $td = $("<div></div>").text("Time: " + new Date(2000, 1, 1, 0, 0, recipe.totalTimeInSeconds, 0).toTimeString().split(" ")[0]).appendTo($tr);
-            //$td = $("<td></td>").appendTo($tr);
             $("<div></div>").text("Ingredients:").appendTo($tr);
             var $ul = $("<ul></ul>").appendTo($tr);
             for (var j = 0; j < recipe.ingredientLines.length; j++) {
@@ -26,8 +25,6 @@
             }
             var recipeButton = "<a class=" + "inspiredRecipeButton id=" + "recipeButton" + " href='" + recipe.source.sourceRecipeUrl + "'> Go to Recipe </a>";
             $(recipeButton).appendTo($tr);
-            //})(data.matches[i]);
-
         }
 
         function populateResult(recipeId) {
@@ -39,7 +36,6 @@
             $body.empty();
             for (var i = 0; i < data.matches.length; i++) {
                 (function (recipe) {
-
                     var $tr = $("<tr></tr>").appendTo($body);
                     var $td = $("<td><img /></td>").appendTo($tr);
                     $td.find('img').attr("src", recipe.smallImageUrls[0]);
@@ -55,9 +51,6 @@
                 })(data.matches[i]);
             }
         }
-
-     
-                Yummly.Search("", populateSearchResult);
-           
+        Yummly.Search("", populateSearchResult);
     }
 );

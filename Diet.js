@@ -25,7 +25,6 @@
             }
             var recipeButton = "<a class=" + "inspiredRecipeButton id=" + "recipeButton" + " href='" + recipe.source.sourceRecipeUrl + "'> Go to Recipe </a>";
             $(recipeButton).appendTo($tr);
-
         }
 
         function populateResult(recipeId) {
@@ -37,7 +36,6 @@
             $body.empty();
             for (var i = 0; i < data.matches.length; i++) {
                 (function (recipe) {
-
                     var $tr = $("<tr></tr>").appendTo($body);
                     var $td = $("<td><img /></td>").appendTo($tr);
                     $td.find('img').attr("src", recipe.smallImageUrls[0]);
@@ -50,8 +48,6 @@
                             populateResult(recipe.id);
                         }
                         );
-
-
                 })(data.matches[i]);
             }
         }
