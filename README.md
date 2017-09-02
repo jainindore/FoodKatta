@@ -5,4 +5,9 @@ Consumed yummly.com API to get the JSON data from them regarding the difference 
 
 Screenshots of the website:
 
+[b] Home Page
+![alt text](https://github.com/jainindore/FoodKatta/blob/master/Images/Home%20Page.JPG)
+
+![alt text](https://github.com/jainindore/FoodKatta/blob/master/Images/Search%20diet.JPG)
+
 ![alt text](https://github.com/jainindore/FoodKatta/blob/master/Images/Recipes.JPG)
